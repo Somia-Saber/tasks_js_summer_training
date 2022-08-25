@@ -1,0 +1,29 @@
+{
+    "family":[
+        {
+          "id":"1",
+          "name":"ayman",
+          "age":"25",
+          "image":"poy.png"
+        },
+        {
+            "id":"2",
+            "name":"nafea",
+            "age":"24",
+            "image":"poy.png"
+        },
+        {
+            "id":"3",
+            "name":"maryam",
+            "age":"22",
+            "image":"girl.png"
+        },
+        {
+            "id":"4",
+            "name":"somia",
+            "age":"20",
+            "image":"girl.png"
+
+        }
+    ]
+}
