@@ -1,0 +1,140 @@
+@charset "UTF-8";
+:root{
+    --dark-color:#0c0f38;
+    --purple-color:#8308EB;
+    --yallow-color:#f5ff3e;
+}
+body{
+    font-family:'Lato',sans-serif;
+
+}
+.navbar-expand-sm{
+background-color: var(--dark-color) !important;
+}
+.navbar-expand-sm .navbar-brand{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.navbar-expand-sm .navbar-nav .nav-item{
+    padding-right:10px;
+    padding-left: 10px;
+
+}
+.navbar-expand-sm .navbar-nav .nav-item .nav-link{
+font-size: 1.2rem;
+color: #fff !important;
+
+}
+.navbar-expand-sm .navbar-nav .nav-item .active{
+color:var(--yallow-color) !important;
+}
+.navbar-expand-sm .navbar-nav .nav-item .nav-link:hover{
+    color:var(--yallow-color) !important;
+    transition: color 1s ease-in-out;
+    border-bottom: 4px solid var(--yallow-color);
+    margin-top: 5px;
+}
+.showcase{
+    background-color: var(--dark-color);
+}
+img{
+    block-size: 400px;
+}
+.showcase .content .mas-heading,
+.showcase .content .sub-heading
+{
+    font-size:1.8rem !important;
+    font-weight: bold;
+}
+.showcase .content .sub-heading
+{
+    font-size: 2.4rem;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    color: var(--yallow-color) !important;
+}
+
+.showcase .content p{
+    margin-top: 12px !important;
+    font-size: 1rem;
+}
+
+.showcase .content .btn-light{
+background-color: #fff !important;
+margin-top: 25px;
+padding: 12px 30px;
+}
+.showcase .content .btn-light:hover{
+    background-color: black !important;
+    color: #fff;
+    transition: background-color 1.2s;
+    border-color: var(--yallow-color) !important;
+}
+/* about section */
+.about h2,
+.services h2{
+font-size: 3rem !important;
+font-weight: bolder;
+margin-bottom: 45px;
+text-shadow: .5px .5px .5px #000 ;
+}
+.about p{
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+.about img{
+    block-size: 300px;
+}
+.about .btn-dark{
+    font-size: 1.2rem;
+    padding: 10px 30px;
+
+}
+.about .btn-dark:hover{
+    background-color: var(--yallow-color);
+    color:var(--dark-color);
+    transition: background-color .4s ease-in-out;
+}
+/*services section*/
+.services img{
+    block-size: 50px;
+}
+.services{
+    background-color: var(--dark-color);
+}
+.services h2{
+    margin-bottom:16px ;
+}
+.services .service{
+    padding: 12px 30px;
+    margin: 50px 5px ;
+    border: 2px solid #fff;
+    margin-bottom: 45px;
+    border-radius: 20px;
+}
+.services .service:hover{
+    background-color: var(--purple-color);
+}
+.services .service img{
+    border-radius:50% ;
+    background-color: #fff;
+    padding: 5px;
+}
+.services .service img:hover{
+    background-color: #ccc;
+}
+.services .service h4,
+.services .service p{
+    padding-top: 15px;
+}
+.services .service:nth-child(even):hover,
+.services .service:nth-child(odd):hover{
+background-color: var(--purple-color);
+transform: scale(0.8);
+transition: all 1s ease-in-out;
+
+}
+.services .service:nth-child(even):hover{
+    transform: scale(1.1);
+}
